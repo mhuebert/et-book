@@ -36,6 +36,7 @@ HheadDOffset: 1
 OS2CapHeight: 0
 OS2XHeight: 0
 OS2Vendor: 'PfEd'
+Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 2" { "'liga' Standard Ligatures in Latin lookup 2-1"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'onum' Oldstyle Figures in Latin lookup 1" { "'onum' Oldstyle Figures in Latin lookup 1-1" ("oldstyle") } ['onum' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'lnum' Lining Figures in Latin lookup 0" { "'lnum' Lining Figures in Latin lookup 0-1"  } ['lnum' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
@@ -47,7 +48,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 48 16 7
+WinInfo: 64224 16 7
 BeginPrivate: 10
 BlueValues 25 [ -25 0 414 435 650 672 ]
 OtherBlues 13 [ -279 -279 ]
@@ -8389,7 +8390,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: fi
+StartChar: f_i
 Encoding: 64257 64257 196
 Width: 555
 Flags: W
@@ -8442,9 +8443,10 @@ SplineSet
  448 41 450 33 485 28 c 2
  506 25 l 2x9e
 EndSplineSet
+Ligature2: "'liga' Standard Ligatures in Latin lookup 2-1" f i
 EndChar
 
-StartChar: fl
+StartChar: f_l
 Encoding: 64258 64258 197
 Width: 539
 Flags: MW
@@ -8505,6 +8507,7 @@ SplineSet
  253 416 321 418 359 418 c 0
  369 418 377 427 379 440 c 2
 EndSplineSet
+Ligature2: "'liga' Standard Ligatures in Latin lookup 2-1" f l
 EndChar
 
 StartChar: daggerdbl
@@ -9734,7 +9737,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: ff
+StartChar: f_f
 Encoding: 64256 64256 230
 Width: 627
 Flags: W
@@ -9807,9 +9810,11 @@ SplineSet
  384 412 400 413 400 421 c 0
  402 476 403 536 430 586 c 0
 EndSplineSet
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures in Latin lookup 2-1" f f
 EndChar
 
-StartChar: ffi
+StartChar: f_f_i
 Encoding: 64259 64259 231
 Width: 880
 Flags: W
@@ -9887,9 +9892,10 @@ SplineSet
  415 416 408 448 409 465 c 0
  411 513 417 549 436 583 c 0
 EndSplineSet
+Ligature2: "'liga' Standard Ligatures in Latin lookup 2-1" f_f_i
 EndChar
 
-StartChar: ffl
+StartChar: f_f_l
 Encoding: 64260 64260 232
 Width: 860
 Flags: W
@@ -9970,6 +9976,7 @@ SplineSet
  391 412 399 413 400 431 c 0
  403 479 413 528 433 571 c 0
 EndSplineSet
+Ligature2: "'liga' Standard Ligatures in Latin lookup 2-1" f_f_l
 EndChar
 
 StartChar: one.lining
