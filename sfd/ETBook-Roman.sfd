@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1444759070
-ModificationTime: 1444763012
+ModificationTime: 1444774344
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -36,6 +36,8 @@ HheadDescent: 0
 HheadDOffset: 1
 OS2CapHeight: 0
 OS2XHeight: 0
+OS2Vendor: 'PfEd'
+Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 2" { "'liga' Standard Ligatures in Latin lookup 2-1"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'onum' Oldstyle Figures in Latin lookup 1" { "'onum' Oldstyle Figures in Latin lookup 1-1" ("oldstyle") } ['onum' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'lnum' Lining Figures in Latin lookup 0" { "'lnum' Lining Figures in Latin lookup 0-1"  } ['lnum' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
@@ -47,7 +49,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 1114016 16 7
+WinInfo: 64240 16 7
 BeginPrivate: 10
 BlueValues 25 [ -25 0 414 435 650 672 ]
 OtherBlues 13 [ -279 -279 ]
@@ -330,7 +332,7 @@ SplineSet
  149 502 174 469 206 441 c 0
  295 361 459 303 459 164 c 0
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: scaron
@@ -381,7 +383,7 @@ SplineSet
  189 243 225 225 251 196 c 0
  271 174 285 142 285 113 c 0
 EndSplineSet
-Validated: 8388641
+Validated: 33
 EndChar
 
 StartChar: Yacute
@@ -649,7 +651,7 @@ SplineSet
  605 193 l 1
  610 199 636 202 636 195 c 0
 EndSplineSet
-Validated: 8388641
+Validated: 33
 EndChar
 
 StartChar: zcaron
@@ -699,7 +701,7 @@ SplineSet
  368 120 l 2
  372 130 399 129 395 118 c 2
 EndSplineSet
-Validated: 8388641
+Validated: 33
 EndChar
 
 StartChar: onehalf
@@ -6164,7 +6166,7 @@ SplineSet
  110 117 180 22 263 22 c 0
  333 22 387 88 387 182 c 0
 EndSplineSet
-Validated: 8388641
+Validated: 33
 EndChar
 
 StartChar: otilde
@@ -8639,6 +8641,7 @@ SplineSet
  506 25 l 2x9e
 EndSplineSet
 Validated: 33
+Ligature2: "'liga' Standard Ligatures in Latin lookup 2-1" f i
 EndChar
 
 StartChar: f_l
@@ -8703,6 +8706,7 @@ SplineSet
  369 418 377 427 379 440 c 2
 EndSplineSet
 Validated: 33
+Ligature2: "'liga' Standard Ligatures in Latin lookup 2-1" f l
 EndChar
 
 StartChar: daggerdbl
@@ -9844,7 +9848,7 @@ SplineSet
  185 -49 188 -49 190 -50 c 0
  228 -55 257 -88 257 -130 c 0xf0
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: hungarumlaut
@@ -10038,6 +10042,7 @@ SplineSet
  402 476 403 536 430 586 c 0
 EndSplineSet
 Validated: 33
+Ligature2: "'liga' Standard Ligatures in Latin lookup 2-1" f f
 LCarets2: 1 0
 EndChar
 
@@ -10120,6 +10125,7 @@ SplineSet
  411 513 417 549 436 583 c 0
 EndSplineSet
 Validated: 33
+Ligature2: "'liga' Standard Ligatures in Latin lookup 2-1" f f i
 EndChar
 
 StartChar: f_f_l
@@ -10204,6 +10210,7 @@ SplineSet
  403 479 413 528 433 571 c 0
 EndSplineSet
 Validated: 33
+Ligature2: "'liga' Standard Ligatures in Latin lookup 2-1" f f l
 EndChar
 
 StartChar: one.lining
