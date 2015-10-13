@@ -17,7 +17,7 @@ The following features are currently available:
 * Lining figures (through an OpenType feature) in the Bold and Roman styles
 * Automatic ligature substitution (for the included ligatures ff fi fl ffi ffl)
 
-There remain some features to be brought over from the Expert font, of which the most obvious is small-caps support. Also, the Display Italic still needs updating.
+There remain some features to be brought over from the Expert font, of which the most obvious is small-caps support.
 
 -------------------------------------
 
