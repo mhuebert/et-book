@@ -1,0 +1,152 @@
+\documentclass{scrartcl}
+\usepackage{fontspec}
+\usepackage{multicol}
+
+\usepackage{polyglossia}
+\setdefaultlanguage{english}
+\setotherlanguages{french,german,italian,spanish,portuges,polish}
+
+\setmainfont{ETBook}[
+  Path          = otf/,
+  Extension     = .otf,
+  UprightFont   = *-Roman,
+  BoldFont      = *-Bold,
+  ItalicFont    = *-Italic
+]
+\newfontfamily\dispital{ETBook Display}[
+  Path          = otf/,
+  Extension     = .otf,
+  UprightFont   = ETBook-DisplayItalic % because reasons
+]
+\newfontfamily\semibold{ETBook-Semibold}[
+  Path          = otf/,
+  Extension     = .otf
+]
+
+\setkomafont{section}{\dispital\huge}
+\setkomafont{subsection}{\rmfamily\large}
+
+\setcounter{secnumdepth}{1}
+\frenchspacing
+
+\begin{document}
+
+{\pagestyle{empty}
+\begin{center}
+  \vspace*{5cm}
+  {\Huge ET Book OT}
+\end{center}\clearpage
+}
+
+\section{Language Samples}
+
+\begin{multicols}{2}
+
+\subsection{English}
+\noindent\textbf{Aldus Pius Manutius} (Italian: \textit{Aldo Manuzio}; 1449 – February 6, 1515) was an Italian humanist who became a printer and publisher when he founded the Aldine Press at Venice. He is sometimes called “the Elder” to distinguish him from his grandson Aldus Manutius the Younger.
+
+\subsection{French}
+\begin{french}
+\noindent\textbf{Aldo Manuzio} (\textit{Aldus Manutius} en latin, \textit{Alde l’Ancien} ou \textit{Alde Manuce} en français), (né en 1449 à Bassiano dans les Marais pontins et mort le 6 février 1515 à Venise), était un imprimeur-libraire installé à Venise, qui joua un rôle fondamental dans la diffusion de la culture humaniste en Italie, et particulièrement de la littérature grecque.
+\end{french}
+
+\subsection{German}
+\begin{german}
+\noindent\textbf{Aldus Pius Manutius,} auch \textit{Aldo Manuzio, der Ältere,} (*~1449 in Bassiano; †~6.~Februar 1515 in Venedig) war ein venezianischer Buchdrucker und Verleger.  Nach Studien in Ferrara, Rom und Verona richtete er im Alter von etwa 40 Jahren in Venedig eine Druckerei ein, deren Produkte die Welt der Bücher revolutionieren sollten.
+\end{german}
+
+\subsection{Italian}
+\begin{italian}
+\noindent\textbf{Aldo Pio Manuzio,} \textit{Aldus Pius Manutius} in latino (Bassiano, tra 1449 e 1452 – Venezia, 6 febbraio 1515), è stato un editore, tipografo e umanista italiano. È ritenuto il maggior tipografo del suo tempo e il primo editore in senso moderno. Introdusse numerose innovazioni destinate a segnare la storia della tipografia fino ai nostri giorni.
+\end{italian}
+
+\subsection{Spanish}
+\begin{spanish}
+\noindent\textbf{Aldus Pius Manutius} o \textbf{Aldo Manuzio} (1449/50 – 6 de febrero de 1515), humanista e impresor italiano, fundador de la Imprenta Aldina. Su nombre en italiano era {\semibold Teobaldo Mannucci,} pero es más conocido por la forma latina de su nombre, Aldus Manutius, adaptada al español como \textit{Aldo Manucio.}
+\end{spanish}
+
+\subsection{Portuguese}
+\begin{portuges}
+\noindent\textbf{Aldo Manúcio} (em latim: \textit{Aldus Manutius}; em italiano: \textit{Aldo Manuzio}; 1449/50 - 6 de fevereiro, 1515), nascido Teobaldo Mannucci, foi um tipógrafo italiano, considerado um dos primeiros mestres do design tipográfico. Nasceu em Bassiano, no Lácio.
+\end{portuges}
+\end{multicols}
+
+\clearpage
+
+\section{History}
+
+\textbf{ET Book,} originally {\semibold ET Bembo,} was created by Edward Tufte, Bonnie Scranton, and Dmitry Krasny for use in Tufte’s well-known series of books on information design. The original editions had been set in Monotype Bembo, a typeface designed under the direction of Stanley Morison as a revival of fonts originally created for the Venetian printer Aldus Manutius. Tufte’s first books used the original lead version of the typeface, but when it came time to produce new digitally-typeset editions, the digital version of Bembo from the foundry was unsatisfactory:
+
+\begin{quote}
+When converted to an electronic font, Monotype Bembo became thin and spindly (the computer people ignored “squeeze,” the slight spreading of ink when the lead type hits the paper). So we made our own computer version and also made a some design changes (ligatures, several problems with the pi font, some letterforms, creation of a semibold).
+\end{quote}
+
+In 2015 Tufte made the typeface available as open-source font files.
+
+ET Book OT is a derivative of the original font files which, while maintaining the exact same design, makes use of modern OpenType features such as the automatic substitution of ligatures and selection of different figure styles. Future features for the Roman typeface will include small capitals, fractional numerators and denominators, and a few alternate characters, which currently exist only in the original ET Bembo `Expert' font (a relic of pre-OpenType technology). Numeric superscript and subscript styles may also be possible.
+
+\clearpage
+
+\section{Styles and Features}
+
+\setlength{\parskip}{1em}
+\setlength{\parindent}{0pt}
+
+\newenvironment{style}[1]{\begin{minipage}[t]{6em}#1\end{minipage}\begin{minipage}[t]{30em}\bgroup\Large\setlength{\parskip}{0.6666em}}{\egroup\end{minipage}}
+
+\begin{style}{Roman}
+abcdefghijklmnopqrstuvwxyz \\
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+\addfontfeature{Numbers=OldStyle}
+0123456789 \newline
+\addfontfeature{Numbers=Lining}
+0123456789
+
+ff fi fl ffi ffl
+\end{style}
+
+
+\begin{style}{Italic}\it
+abcdefghijklmnopqrstuvwxyz \\
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+0123456789
+
+ff fi fl ffi ffl
+\end{style}
+
+
+\begin{style}{Semibold}\semibold
+abcdefghijklmnopqrstuvwxyz \\
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+0123456789
+
+ff fi fl ffi ffl
+\end{style}
+
+
+\begin{style}{Bold}\bf
+abcdefghijklmnopqrstuvwxyz \\
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+\addfontfeature{Numbers=OldStyle}
+0123456789 \newline
+\addfontfeature{Numbers=Lining}
+0123456789
+
+ff fi fl ffi ffl
+\end{style}
+
+
+\begin{style}{Display Italic}\dispital
+abcdefghijklmnopqrstuvwxyz \\
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+0123456789
+
+ff fi fl ffi ffl
+\end{style}
+
+\end{document}
