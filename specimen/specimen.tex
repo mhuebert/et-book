@@ -23,6 +23,7 @@
   Extension     = .otf
 ]
 
+\setkomafont{paragraph}{\bf}
 \setkomafont{section}{\dispital\huge}
 \setkomafont{subsection}{\rmfamily\large}
 
@@ -71,6 +72,7 @@
 \end{portuges}
 \end{multicols}
 
+\begin{english}
 \clearpage
 
 \section{History}
@@ -83,12 +85,12 @@ When converted to an electronic font, Monotype Bembo became thin and spindly (th
 
 In 2015 Tufte made the typeface available as open-source font files.
 
-ET Book OT is a derivative of the original font files which, while maintaining the exact same design, makes use of modern OpenType features such as the automatic substitution of ligatures and selection of different figure styles. Future features for the Roman typeface will include small capitals, fractional numerators and denominators, and a few alternate characters, which currently exist only in the original ET Bembo `Expert' font (a relic of pre-OpenType technology). Numeric superscript and subscript styles may also be possible.
+ET Book OT is a derivative of the original font files which, while maintaining the exact same design, makes use of modern OpenType features such as the automatic substitution of ligatures and selection of different figure styles. Future features for the Roman typeface will include small capitals, fractional numerators and denominators, and a few alternate characters, which currently exist only in the original ET Bembo ‘Expert’ font (a relic of pre-OpenType technology). Numeric superscript and subscript styles may also be possible.
 
 \clearpage
+\section{Styles}
 
-\section{Styles and Features}
-
+{
 \setlength{\parskip}{1em}
 \setlength{\parindent}{0pt}
 
@@ -149,5 +151,16 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZ
 
 ff fi fl ffi ffl
 \end{style}
+}
 
+\clearpage
+\section{Features}
+
+\paragraph{Lining and text figures.} In the Roman and Bold styles through the ‘lnum’ and ‘onum’ OpenType features. {\addfontfeature{Numbers=OldStyle} 0123456789}~{\addfontfeature{Numbers=Lining} 0123456789}
+
+\paragraph{Small caps.} In the Roman style only. Mixed small and standard capitals are available with the ‘smcp’ feature. \textsc{John F. Smith.}
+
+Combine with the ‘c2sc’ option to make all letters small caps, and also activate scaled versions of some punctuation and other symbols. {\addfontfeature{Letters={SmallCaps,UppercaseSmallCaps}} Upon my honour!}
+
+\end{english}
 \end{document}
