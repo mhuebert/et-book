@@ -3,3 +3,6 @@ tests
 build
 otf
 woff
+specimen/specimen.aux
+specimen/specimen.log
+specimen/specimen.pdf

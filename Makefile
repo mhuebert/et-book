@@ -31,4 +31,4 @@ build/ETBookOT-woff.tar.gz: ${ALL_WOFFS} | build
 	find woff -name \*.woff | pax -w -s '/^/\ETBookOT-/' | gzip > $@
 
 clean:
-	rm -rf otf woff build
+	rm -rf otf woff build specimen/specimen.{log,pdf,aux}
