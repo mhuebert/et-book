@@ -1,0 +1,277 @@
+# Prefix: Languagesystems
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+
+# Prefix: Prefix
+# GSUB 
+lookup c2scCapitalstoSmallCapitalsinLatinlookup4 {
+  lookupflag 0;
+    sub \Yacute by \yacute.sc ;
+    sub \Thorn by \thorn.sc ;
+    sub \exclam by \exclam.csc ;
+    sub \dollar by \dollar.csc ;
+    sub \percent by \percent.csc ;
+    sub \ampersand by \ampersand.csc ;
+    sub \parenleft by \parenleft.csc ;
+    sub \parenright by \parenright.csc ;
+    sub \asterisk by \asterisk.csc ;
+    sub \less by \less.csc ;
+    sub \equal by \equal.csc ;
+    sub \greater by \greater.csc ;
+    sub \question by \question.csc ;
+    sub \A by \a.sc ;
+    sub \B by \b.sc ;
+    sub \C by \c.sc ;
+    sub \D by \d.sc ;
+    sub \E by \e.sc ;
+    sub \F by \f.sc ;
+    sub \G by \g.sc ;
+    sub \H by \h.sc ;
+    sub \I by \i.sc ;
+    sub \J by \j.sc ;
+    sub \K by \k.sc ;
+    sub \L by \l.sc ;
+    sub \M by \m.sc ;
+    sub \N by \n.sc ;
+    sub \O by \o.sc ;
+    sub \P by \p.sc ;
+    sub \Q by \q.sc ;
+    sub \R by \r.sc ;
+    sub \S by \s.sc ;
+    sub \T by \t.sc ;
+    sub \U by \u.sc ;
+    sub \V by \v.sc ;
+    sub \W by \w.sc ;
+    sub \X by \x.sc ;
+    sub \Y by \y.sc ;
+    sub \Z by \z.sc ;
+    sub \braceleft by \braceleft.csc ;
+    sub \braceright by \braceright.csc ;
+    sub \asciitilde by \asciitilde.csc ;
+    sub \Adieresis by \adieresis.sc ;
+    sub \Aring by \aring.sc ;
+    sub \Ccedilla by \ccedilla.sc ;
+    sub \Eacute by \eacute.sc ;
+    sub \Ntilde by \ntilde.sc ;
+    sub \Odieresis by \odieresis.sc ;
+    sub \Udieresis by \udieresis.sc ;
+    sub \dagger by \dagger.csc ;
+    sub \paragraph by \paragraph.csc ;
+    sub \Oslash by \oslash.sc ;
+    sub \Agrave by \agrave.sc ;
+    sub \Atilde by \atilde.sc ;
+    sub \Otilde by \otilde.sc ;
+    sub \Ydieresis by \ydieresis.sc ;
+    sub \perthousand by \perthousand.csc ;
+    sub \Acircumflex by \acircumflex.sc ;
+    sub \Ecircumflex by \ecircumflex.sc ;
+    sub \Aacute by \aacute.sc ;
+    sub \Edieresis by \edieresis.sc ;
+    sub \Egrave by \egrave.sc ;
+    sub \Iacute by \iacute.sc ;
+    sub \Icircumflex by \icircumflex.sc ;
+    sub \Idieresis by \idieresis.sc ;
+    sub \Igrave by \igrave.sc ;
+    sub \Oacute by \oacute.sc ;
+    sub \Ocircumflex by \ocircumflex.sc ;
+    sub \Ograve by \ograve.sc ;
+    sub \Uacute by \uacute.sc ;
+    sub \Ucircumflex by \ucircumflex.sc ;
+    sub \Ugrave by \ugrave.sc ;
+} c2scCapitalstoSmallCapitalsinLatinlookup4;
+
+lookup smcpLowercasetoSmallCapitalsinLatinlookup3 {
+  lookupflag 0;
+    sub \yacute by \yacute.sc ;
+    sub \thorn by \thorn.sc ;
+    sub \a by \a.sc ;
+    sub \b by \b.sc ;
+    sub \c by \c.sc ;
+    sub \d by \d.sc ;
+    sub \e by \e.sc ;
+    sub \f by \f.sc ;
+    sub \g by \g.sc ;
+    sub \h by \h.sc ;
+    sub \i by \i.sc ;
+    sub \j by \j.sc ;
+    sub \k by \k.sc ;
+    sub \l by \l.sc ;
+    sub \m by \m.sc ;
+    sub \n by \n.sc ;
+    sub \o by \o.sc ;
+    sub \p by \p.sc ;
+    sub \q by \q.sc ;
+    sub \r by \r.sc ;
+    sub \s by \s.sc ;
+    sub \t by \t.sc ;
+    sub \u by \u.sc ;
+    sub \v by \v.sc ;
+    sub \w by \w.sc ;
+    sub \x by \x.sc ;
+    sub \y by \y.sc ;
+    sub \z by \z.sc ;
+    sub \aacute by \aacute.sc ;
+    sub \agrave by \agrave.sc ;
+    sub \acircumflex by \acircumflex.sc ;
+    sub \adieresis by \adieresis.sc ;
+    sub \atilde by \atilde.sc ;
+    sub \aring by \aring.sc ;
+    sub \ccedilla by \ccedilla.sc ;
+    sub \eacute by \eacute.sc ;
+    sub \egrave by \egrave.sc ;
+    sub \ecircumflex by \ecircumflex.sc ;
+    sub \edieresis by \edieresis.sc ;
+    sub \iacute by \iacute.sc ;
+    sub \igrave by \igrave.sc ;
+    sub \icircumflex by \icircumflex.sc ;
+    sub \idieresis by \idieresis.sc ;
+    sub \ntilde by \ntilde.sc ;
+    sub \oacute by \oacute.sc ;
+    sub \ograve by \ograve.sc ;
+    sub \ocircumflex by \ocircumflex.sc ;
+    sub \odieresis by \odieresis.sc ;
+    sub \otilde by \otilde.sc ;
+    sub \uacute by \uacute.sc ;
+    sub \ugrave by \ugrave.sc ;
+    sub \ucircumflex by \ucircumflex.sc ;
+    sub \udieresis by \udieresis.sc ;
+    sub \germandbls by \germandbls.sc ;
+    sub \ae by \ae.sc ;
+    sub \oslash by \oslash.sc ;
+    sub \oe by \oe.sc ;
+    sub \ydieresis by \ydieresis.sc ;
+} smcpLowercasetoSmallCapitalsinLatinlookup3;
+
+lookup ligaStandardLigaturesinLatinlookup2 {
+  lookupflag 0;
+    sub \f \i  by \f_i;
+    sub \f \l  by \f_l;
+    sub \f \f  by \f_f;
+    sub \f \f \i  by \f_f_i;
+    sub \f \f \l  by \f_f_l;
+} ligaStandardLigaturesinLatinlookup2;
+
+lookup onumOldstyleFiguresinLatinlookup1 {
+  lookupflag 0;
+    sub \one.lining by \one ;
+    sub \zero.lining by \zero ;
+    sub \two.lining by \two ;
+    sub \three.lining by \three ;
+    sub \four.lining by \four ;
+    sub \five.lining by \five ;
+    sub \six.lining by \six ;
+    sub \seven.lining by \seven ;
+    sub \eight.lining by \eight ;
+    sub \nine.lining by \nine ;
+} onumOldstyleFiguresinLatinlookup1;
+
+lookup lnumLiningFiguresinLatinlookup0 {
+  lookupflag 0;
+    sub \zero by \zero.lining ;
+    sub \one by \one.lining ;
+    sub \two by \two.lining ;
+    sub \three by \three.lining ;
+    sub \four by \four.lining ;
+    sub \five by \five.lining ;
+    sub \six by \six.lining ;
+    sub \seven by \seven.lining ;
+    sub \eight by \eight.lining ;
+    sub \nine by \nine.lining ;
+} lnumLiningFiguresinLatinlookup0;
+
+#Mark attachment classes (defined in GDEF, used in lookupflags)
+
+@GDEF_Simple = [\space \Eth \eth \Lslash \lslash \Scaron \scaron \Yacute \yacute 
+	\Thorn \thorn \Zcaron \zcaron \onehalf \onequarter \onesuperior \threequarters 
+	\threesuperior \twosuperior \brokenbar \minus \multiply \exclam \quotedbl 
+	\numbersign \dollar \percent \ampersand \quotesingle \parenleft \parenright 
+	\asterisk \plus \comma \hyphen \period \slash \zero \one \two \three \four \five 
+	\six \seven \eight \nine \colon \semicolon \less \equal \greater \question \at \A \B 
+	\C \D \E \F \G \H \I \J \K \L \M \N \O \P \Q \R \S \T \U \V \W \X \Y \Z \bracketleft \backslash 
+	\bracketright \asciicircum \underscore \grave \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o 
+	\p \q \r \s \t \u \v \w \x \y \z \braceleft \bar \braceright \asciitilde \Adieresis 
+	\Aring \Ccedilla \Eacute \Ntilde \Odieresis \Udieresis \aacute \agrave 
+	\acircumflex \adieresis \atilde \aring \ccedilla \eacute \egrave \ecircumflex 
+	\edieresis \iacute \igrave \icircumflex \idieresis \ntilde \oacute \ograve 
+	\ocircumflex \odieresis \otilde \uacute \ugrave \ucircumflex \udieresis \dagger 
+	\degree \cent \sterling \section \bullet \paragraph \germandbls \registered 
+	\copyright \trademark \acute \dieresis \AE \Oslash \plusminus \yen \mu 
+	\ordfeminine \ordmasculine \ae \oslash \questiondown \exclamdown \logicalnot 
+	\florin \guillemotleft \guillemotright \ellipsis \uni00A0 \Agrave \Atilde 
+	\Otilde \OE \oe \endash \emdash \quotedblleft \quotedblright \quoteleft 
+	\quoteright \divide \ydieresis \Ydieresis \fraction \Euro \guilsinglleft 
+	\guilsinglright \daggerdbl \periodcentered \quotesinglbase \quotedblbase 
+	\perthousand \Acircumflex \Ecircumflex \Aacute \Edieresis \Egrave \Iacute 
+	\Icircumflex \Idieresis \Igrave \Oacute \Ocircumflex \Ograve \Uacute 
+	\Ucircumflex \Ugrave \dotlessi \circumflex \tilde \macron \breve \dotaccent 
+	\ring \cedilla \hungarumlaut \ogonek \caron \currency \one.lining \zero.lining 
+	\two.lining \three.lining \four.lining \five.lining \six.lining \seven.lining 
+	\eight.lining \nine.lining \a.sc \b.sc \c.sc \d.sc \e.sc \f.sc \g.sc \h.sc \i.sc 
+	\j.sc \k.sc \l.sc \m.sc \n.sc \o.sc \p.sc \q.sc \r.sc \s.sc \t.sc \u.sc \v.sc \w.sc 
+	\x.sc \y.sc \z.sc \parenleft.csc \parenright.csc \aacute.sc \agrave.sc 
+	\acircumflex.sc \adieresis.sc \atilde.sc \aring.sc \ccedilla.sc \eacute.sc 
+	\egrave.sc \ecircumflex.sc \edieresis.sc \iacute.sc \igrave.sc 
+	\icircumflex.sc \idieresis.sc \ntilde.sc \oacute.sc \ograve.sc 
+	\ocircumflex.sc \odieresis.sc \otilde.sc \uacute.sc \ugrave.sc 
+	\ucircumflex.sc \udieresis.sc \yacute.sc \ydieresis.sc \ae.sc \oe.sc 
+	\oslash.sc \germandbls.sc \thorn.sc \exclam.csc \dollar.csc \percent.csc 
+	\ampersand.csc \asterisk.csc \less.csc \equal.csc \greater.csc \question.csc 
+	\braceleft.csc \braceright.csc \asciitilde.csc \dagger.csc \paragraph.csc 
+	\perthousand.csc ];
+@GDEF_Ligature = [\f_i \f_l \f_f \f_f_i \f_f_l ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, @GDEF_Ligature, , ;
+
+} GDEF;
+
+feature c2sc {
+ script DFLT;
+     language dflt ;
+      lookup c2scCapitalstoSmallCapitalsinLatinlookup4;
+
+ script latn;
+     language dflt ;
+      lookup c2scCapitalstoSmallCapitalsinLatinlookup4;
+} c2sc;
+
+feature smcp {
+ script DFLT;
+     language dflt ;
+      lookup smcpLowercasetoSmallCapitalsinLatinlookup3;
+
+ script latn;
+     language dflt ;
+      lookup smcpLowercasetoSmallCapitalsinLatinlookup3;
+} smcp;
+
+feature liga {
+ script DFLT;
+     language dflt ;
+      lookup ligaStandardLigaturesinLatinlookup2;
+
+ script latn;
+     language dflt ;
+      lookup ligaStandardLigaturesinLatinlookup2;
+} liga;
+
+feature onum {
+ script DFLT;
+     language dflt ;
+      lookup onumOldstyleFiguresinLatinlookup1;
+
+ script latn;
+     language dflt ;
+      lookup onumOldstyleFiguresinLatinlookup1;
+} onum;
+
+feature lnum {
+ script DFLT;
+     language dflt ;
+      lookup lnumLiningFiguresinLatinlookup0;
+
+ script latn;
+     language dflt ;
+      lookup lnumLiningFiguresinLatinlookup0;
+} lnum;
+

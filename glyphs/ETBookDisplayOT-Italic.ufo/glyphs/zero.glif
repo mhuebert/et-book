@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zero" format="1">
+  <advance width="432"/>
+  <unicode hex="0030"/>
+  <outline>
+    <contour>
+      <point x="412" y="288" type="curve" smooth="yes"/>
+      <point x="412" y="222"/>
+      <point x="392" y="160"/>
+      <point x="355" y="111" type="curve" smooth="yes"/>
+      <point x="324" y="69"/>
+      <point x="269" y="23"/>
+      <point x="217" y="0" type="curve" smooth="yes"/>
+      <point x="194" y="-10"/>
+      <point x="173" y="-16"/>
+      <point x="158" y="-16" type="curve" smooth="yes"/>
+      <point x="110" y="-16"/>
+      <point x="60" y="70"/>
+      <point x="60" y="161" type="curve" smooth="yes"/>
+      <point x="60" y="253"/>
+      <point x="113" y="344"/>
+      <point x="203" y="407" type="curve" smooth="yes"/>
+      <point x="242" y="434"/>
+      <point x="286" y="454"/>
+      <point x="312" y="454" type="curve" smooth="yes"/>
+      <point x="360" y="454"/>
+      <point x="412" y="374"/>
+    </contour>
+    <contour>
+      <point x="337" y="274" type="curve" smooth="yes"/>
+      <point x="337" y="349"/>
+      <point x="301" y="404"/>
+      <point x="259" y="404" type="curve" smooth="yes"/>
+      <point x="196" y="404"/>
+      <point x="136" y="289"/>
+      <point x="136" y="158" type="curve" smooth="yes"/>
+      <point x="136" y="85"/>
+      <point x="169" y="31"/>
+      <point x="205" y="31" type="curve" smooth="yes"/>
+      <point x="272" y="31"/>
+      <point x="337" y="145"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-16</integer>
+            <key>width</key>
+            <integer>47</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>404</integer>
+            <key>width</key>
+            <integer>50</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>60</integer>
+            <key>width</key>
+            <integer>76</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>337</integer>
+            <key>width</key>
+            <integer>75</integer>
+          </dict>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-10-06 16:36:12 +0000</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="guillemotleft" format="1">
+  <advance width="446"/>
+  <unicode hex="00AB"/>
+  <outline>
+    <contour>
+      <point x="453" y="398" type="line"/>
+      <point x="343" y="227" type="line"/>
+      <point x="371" y="60" type="line"/>
+      <point x="345" y="60" type="line"/>
+      <point x="267" y="228" type="line"/>
+      <point x="426" y="398" type="line"/>
+    </contour>
+    <contour>
+      <point x="317" y="421" type="line"/>
+      <point x="170" y="227" type="line"/>
+      <point x="232" y="35" type="line"/>
+      <point x="205" y="35" type="line"/>
+      <point x="95" y="228" type="line"/>
+      <point x="292" y="421" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>35</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>401</integer>
+            <key>width</key>
+            <integer>20</integer>
+          </dict>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-10-06 16:36:12 +0000</string>
+    </dict>
+  </lib>
+</glyph>

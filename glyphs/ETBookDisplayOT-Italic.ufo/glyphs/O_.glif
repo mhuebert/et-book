@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="O" format="1">
+  <advance width="819"/>
+  <unicode hex="004F"/>
+  <outline>
+    <contour>
+      <point x="782" y="358" type="curve" smooth="yes"/>
+      <point x="782" y="150"/>
+      <point x="606" y="-18"/>
+      <point x="387" y="-18" type="curve" smooth="yes"/>
+      <point x="211" y="-18"/>
+      <point x="88" y="114"/>
+      <point x="88" y="287" type="curve" smooth="yes"/>
+      <point x="88" y="491"/>
+      <point x="267" y="662"/>
+      <point x="480" y="662" type="curve" smooth="yes"/>
+      <point x="656" y="662"/>
+      <point x="782" y="529"/>
+    </contour>
+    <contour>
+      <point x="688" y="389" type="curve" smooth="yes"/>
+      <point x="688" y="532"/>
+      <point x="609" y="632"/>
+      <point x="481" y="631" type="curve" smooth="yes"/>
+      <point x="406" y="631"/>
+      <point x="342" y="605"/>
+      <point x="295" y="555" type="curve" smooth="yes"/>
+      <point x="226" y="482"/>
+      <point x="182" y="369"/>
+      <point x="182" y="262" type="curve" smooth="yes"/>
+      <point x="182" y="109"/>
+      <point x="256" y="14"/>
+      <point x="387" y="13" type="curve" smooth="yes"/>
+      <point x="556" y="12"/>
+      <point x="688" y="176"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-18</integer>
+            <key>width</key>
+            <integer>31</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>631</integer>
+            <key>width</key>
+            <integer>31</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>88</integer>
+            <key>width</key>
+            <integer>94</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>688</integer>
+            <key>width</key>
+            <integer>94</integer>
+          </dict>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-10-06 16:36:12 +0000</string>
+    </dict>
+  </lib>
+</glyph>

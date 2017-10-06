@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="germandbls.sc" format="1">
+  <advance width="768"/>
+  <outline>
+    <component base="s.sc"/>
+    <component base="s.sc" xOffset="384"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-10-06 16:37:04 +0000</string>
+    </dict>
+  </lib>
+</glyph>

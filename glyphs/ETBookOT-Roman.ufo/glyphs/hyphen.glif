@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hyphen" format="1">
+  <advance width="435"/>
+  <unicode hex="002D"/>
+  <outline>
+    <contour>
+      <point x="396" y="252" type="curve" smooth="yes"/>
+      <point x="394" y="213" type="line" smooth="yes"/>
+      <point x="392" y="204"/>
+      <point x="383" y="200"/>
+      <point x="377" y="199" type="curve" smooth="yes"/>
+      <point x="221" y="203"/>
+      <point x="176" y="197"/>
+      <point x="54" y="199" type="curve" smooth="yes"/>
+      <point x="47" y="199"/>
+      <point x="45" y="207"/>
+      <point x="44" y="211" type="curve" smooth="yes"/>
+      <point x="44" y="251" type="line" smooth="yes"/>
+      <point x="44" y="263"/>
+      <point x="56" y="268"/>
+      <point x="63" y="268" type="curve" smooth="yes"/>
+      <point x="138" y="266"/>
+      <point x="277" y="271"/>
+      <point x="382" y="268" type="curve" smooth="yes"/>
+      <point x="389" y="268"/>
+      <point x="396" y="259"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>199</integer>
+            <key>width</key>
+            <integer>69</integer>
+          </dict>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-10-06 16:36:12 +0000</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="underscore" format="1">
+  <advance width="523"/>
+  <unicode hex="005F"/>
+  <outline>
+    <contour>
+      <point x="536" y="-220" type="line" smooth="yes"/>
+      <point x="536" y="-228"/>
+      <point x="532" y="-231"/>
+      <point x="526" y="-232" type="curve" smooth="yes"/>
+      <point x="519" y="-233"/>
+      <point x="512" y="-232"/>
+      <point x="505" y="-232" type="curve" smooth="yes"/>
+      <point x="28" y="-232" type="line" smooth="yes"/>
+      <point x="8" y="-232"/>
+      <point x="-10" y="-230"/>
+      <point x="-10" y="-214" type="curve" smooth="yes"/>
+      <point x="-10" y="-187" type="line" smooth="yes"/>
+      <point x="-10" y="-173"/>
+      <point x="21" y="-180"/>
+      <point x="61" y="-180" type="curve" smooth="yes"/>
+      <point x="454" y="-180" type="line" smooth="yes"/>
+      <point x="461" y="-180"/>
+      <point x="505" y="-178"/>
+      <point x="516" y="-179" type="curve" smooth="yes"/>
+      <point x="527" y="-179"/>
+      <point x="536" y="-182"/>
+      <point x="536" y="-191" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-232</integer>
+            <key>width</key>
+            <integer>52</integer>
+          </dict>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-10-06 16:36:12 +0000</string>
+    </dict>
+  </lib>
+</glyph>

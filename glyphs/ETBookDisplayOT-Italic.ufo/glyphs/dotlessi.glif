@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dotlessi" format="1">
+  <advance width="255"/>
+  <unicode hex="0131"/>
+  <outline>
+    <contour>
+      <point x="223" y="94" type="curve" smooth="yes"/>
+      <point x="205" y="71"/>
+      <point x="184" y="48"/>
+      <point x="160" y="26" type="curve" smooth="yes"/>
+      <point x="131" y="-1"/>
+      <point x="110" y="-14"/>
+      <point x="95" y="-14" type="curve" smooth="yes"/>
+      <point x="57" y="-14"/>
+      <point x="65" y="40"/>
+      <point x="70" y="64" type="curve" smooth="yes"/>
+      <point x="121" y="323" type="line" smooth="yes"/>
+      <point x="122" y="328"/>
+      <point x="132" y="359"/>
+      <point x="122" y="359" type="curve" smooth="yes"/>
+      <point x="107" y="359"/>
+      <point x="82" y="319"/>
+      <point x="66" y="307" type="curve" smooth="yes"/>
+      <point x="56" y="299"/>
+      <point x="49" y="319"/>
+      <point x="54" y="324" type="curve" smooth="yes"/>
+      <point x="115" y="392"/>
+      <point x="155" y="425"/>
+      <point x="178" y="425" type="curve" smooth="yes"/>
+      <point x="207" y="425"/>
+      <point x="201" y="382"/>
+      <point x="197" y="364" type="curve" smooth="yes"/>
+      <point x="139" y="75" type="line" smooth="yes"/>
+      <point x="138" y="70"/>
+      <point x="132" y="44"/>
+      <point x="143" y="44" type="curve" smooth="yes"/>
+      <point x="155" y="44"/>
+      <point x="198" y="96"/>
+      <point x="207" y="108" type="curve" smooth="yes"/>
+      <point x="214" y="117"/>
+      <point x="230" y="103"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-14</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>405</integer>
+            <key>width</key>
+            <integer>20</integer>
+          </dict>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-10-06 16:36:12 +0000</string>
+    </dict>
+  </lib>
+</glyph>

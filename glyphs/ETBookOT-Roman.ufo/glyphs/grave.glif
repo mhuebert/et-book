@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="grave" format="1">
+  <advance width="348"/>
+  <unicode hex="0060"/>
+  <outline>
+    <contour>
+      <point x="229" y="487" type="curve" smooth="yes"/>
+      <point x="230" y="474"/>
+      <point x="212" y="473"/>
+      <point x="204" y="480" type="curve" smooth="yes"/>
+      <point x="172" y="522"/>
+      <point x="113" y="591"/>
+      <point x="70" y="638" type="curve" smooth="yes"/>
+      <point x="64" y="644"/>
+      <point x="72" y="657"/>
+      <point x="84" y="657" type="curve" smooth="yes"/>
+      <point x="161" y="658" type="line" smooth="yes"/>
+      <point x="170" y="658"/>
+      <point x="175" y="658"/>
+      <point x="180" y="650" type="curve" smooth="yes"/>
+      <point x="197" y="605"/>
+      <point x="219" y="530"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>637</integer>
+            <key>width</key>
+            <integer>20</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>638</integer>
+            <key>width</key>
+            <integer>20</integer>
+          </dict>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-10-06 16:36:12 +0000</string>
+    </dict>
+  </lib>
+</glyph>

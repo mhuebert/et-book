@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ascender</key>
+	<integer>800</integer>
+	<key>capHeight</key>
+	<integer>0</integer>
+	<key>copyright</key>
+	<string>ETBembo designed for Edward Tufte / Graphics Press (c) 2002 Dmitry Krasny / Deka Design</string>
+	<key>descender</key>
+	<integer>-200</integer>
+	<key>familyName</key>
+	<string>ETBookOT</string>
+	<key>note</key>
+	<string></string>
+	<key>openTypeHeadCreated</key>
+	<string>2015/10/13 17:57:50</string>
+	<key>openTypeHheaAscender</key>
+	<integer>938</integer>
+	<key>openTypeHheaDescender</key>
+	<integer>-289</integer>
+	<key>openTypeHheaLineGap</key>
+	<integer>0</integer>
+	<key>openTypeNamePreferredFamilyName</key>
+	<string>ETBookOT</string>
+	<key>openTypeNamePreferredSubfamilyName</key>
+	<string>Bold</string>
+	<key>openTypeNameVersion</key>
+	<string>Version 1.001</string>
+	<key>openTypeOS2WeightClass</key>
+	<integer>700</integer>
+	<key>openTypeOS2WidthClass</key>
+	<integer>5</integer>
+	<key>postscriptBlueFuzz</key>
+	<integer>1</integer>
+	<key>postscriptBlueScale</key>
+	<real>0.016299999999999999</real>
+	<key>postscriptBlueShift</key>
+	<integer>7</integer>
+	<key>postscriptBlueValues</key>
+	<array>
+		<integer>-12</integer>
+		<integer>-4</integer>
+		<integer>376</integer>
+		<integer>438</integer>
+		<integer>593</integer>
+		<integer>612</integer>
+		<integer>679</integer>
+		<integer>688</integer>
+	</array>
+	<key>postscriptFontName</key>
+	<string>ETBookOT-Bold</string>
+	<key>postscriptForceBold</key>
+	<true/>
+	<key>postscriptFullName</key>
+	<string>ETBook Bold</string>
+	<key>postscriptOtherBlues</key>
+	<array>
+		<integer>-260</integer>
+		<integer>-249</integer>
+	</array>
+	<key>postscriptStemSnapH</key>
+	<array>
+		<integer>38</integer>
+		<integer>39</integer>
+	</array>
+	<key>postscriptStemSnapV</key>
+	<array>
+		<integer>80</integer>
+		<integer>96</integer>
+	</array>
+	<key>postscriptUnderlinePosition</key>
+	<integer>-111</integer>
+	<key>postscriptUnderlineThickness</key>
+	<integer>50</integer>
+	<key>styleMapFamilyName</key>
+	<string>ETBook Bold</string>
+	<key>styleMapStyleName</key>
+	<string>regular</string>
+	<key>styleName</key>
+	<string>Bold</string>
+	<key>unitsPerEm</key>
+	<integer>1000</integer>
+	<key>versionMajor</key>
+	<integer>1</integer>
+	<key>versionMinor</key>
+	<integer>1</integer>
+	<key>xHeight</key>
+	<integer>0</integer>
+</dict>
+</plist>
