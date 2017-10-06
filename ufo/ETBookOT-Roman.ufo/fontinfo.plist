@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>familyName</key>
+    <string>ETBookOT</string>
+    <key>styleName</key>
+    <string>Roman</string>
+    <key>styleMapFamilyName</key>
+    <string>ETBook Roman</string>
+    <key>versionMajor</key>
+    <integer>1</integer>
+    <key>versionMinor</key>
+    <integer>1</integer>
+    <key>copyright</key>
+    <string>ETBembo designed for Edward Tufte / Graphics Press (c) 2002 Dmitry Krasny / Deka Design</string>
+    <key>unitsPerEm</key>
+    <integer>1000</integer>
+    <key>ascender</key>
+    <integer>800</integer>
+    <key>descender</key>
+    <integer>-200</integer>
+    <key>italicAngle</key>
+    <real>0</real>
+    <key>note</key>
+    <string></string>
+    <key>openTypeHeadCreated</key>
+    <string>2015/10/13 17:57:50</string>
+    <key>openTypeHheaAscender</key>
+    <integer>896</integer>
+    <key>openTypeHheaDescender</key>
+    <integer>-289</integer>
+    <key>openTypeHheaLineGap</key>
+    <integer>0</integer>
+    <key>openTypeNameVersion</key>
+    <string>Version 1.001</string>
+    <key>postscriptFontName</key>
+    <string>ETBookOT-Roman</string>
+    <key>postscriptFullName</key>
+    <string>ETBook Roman</string>
+    <key>postscriptWeightName</key>
+    <string>Normal</string>
+    <key>postscriptUnderlineThickness</key>
+    <integer>50</integer>
+    <key>postscriptUnderlinePosition</key>
+    <integer>-111</integer>
+    <key>postscriptBlueValues</key>
+    <array>
+      <integer>-25</integer>
+      <integer>0</integer>
+      <integer>414</integer>
+      <integer>435</integer>
+      <integer>650</integer>
+      <integer>672</integer>
+    </array>
+    <key>postscriptOtherBlues</key>
+    <array>
+      <integer>-279</integer>
+      <integer>-279</integer>
+    </array>
+    <key>postscriptStemSnapH</key>
+    <array>
+      <integer>38</integer>
+      <integer>39</integer>
+    </array>
+    <key>postscriptStemSnapV</key>
+    <array>
+      <integer>80</integer>
+      <integer>96</integer>
+    </array>
+    <key>postscriptBlueFuzz</key>
+    <integer>1</integer>
+    <key>postscriptBlueShift</key>
+    <integer>7</integer>
+    <key>postscriptBlueScale</key>
+    <real>0.01627</real>
+    <key>postscriptForceBold</key>
+    <false/>
+  </dict>
+</plist>

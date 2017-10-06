@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>familyName</key>
+    <string>ETBembo</string>
+    <key>styleName</key>
+    <string>Expert</string>
+    <key>styleMapFamilyName</key>
+    <string>ETBembo Expert</string>
+    <key>versionMajor</key>
+    <integer>1</integer>
+    <key>versionMinor</key>
+    <integer>1</integer>
+    <key>copyright</key>
+    <string>ETBembo Expert designed for Eward Tufte / Graphics Press (c) 2002 Dmitry Krasny / Deka Design</string>
+    <key>unitsPerEm</key>
+    <integer>1000</integer>
+    <key>ascender</key>
+    <integer>800</integer>
+    <key>descender</key>
+    <integer>-200</integer>
+    <key>italicAngle</key>
+    <real>0</real>
+    <key>note</key>
+    <string></string>
+    <key>openTypeHeadCreated</key>
+    <string>2015/10/13 17:57:50</string>
+    <key>openTypeHheaAscender</key>
+    <integer>755</integer>
+    <key>openTypeHheaDescender</key>
+    <integer>-249</integer>
+    <key>openTypeHheaLineGap</key>
+    <integer>0</integer>
+    <key>openTypeNameVersion</key>
+    <string>Version 1.001</string>
+    <key>postscriptFontName</key>
+    <string>ETBembo-Expert</string>
+    <key>postscriptFullName</key>
+    <string>ETBembo Expert</string>
+    <key>postscriptWeightName</key>
+    <string>Normal</string>
+    <key>postscriptUnderlineThickness</key>
+    <integer>50</integer>
+    <key>postscriptUnderlinePosition</key>
+    <integer>-100</integer>
+    <key>postscriptBlueValues</key>
+    <array>
+      <integer>-14</integer>
+      <integer>0</integer>
+      <integer>478</integer>
+      <integer>490</integer>
+      <integer>605</integer>
+      <integer>614</integer>
+    </array>
+    <key>postscriptStemSnapH</key>
+    <array>
+      <integer>20</integer>
+      <integer>37</integer>
+    </array>
+    <key>postscriptStemSnapV</key>
+    <array>
+      <integer>57</integer>
+      <integer>150</integer>
+    </array>
+    <key>postscriptBlueFuzz</key>
+    <integer>1</integer>
+    <key>postscriptBlueShift</key>
+    <integer>7</integer>
+    <key>postscriptBlueScale</key>
+    <real>0.02727</real>
+    <key>postscriptForceBold</key>
+    <false/>
+  </dict>
+</plist>

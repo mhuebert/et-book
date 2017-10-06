@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>familyName</key>
+    <string>ETBookDisplayOT</string>
+    <key>styleName</key>
+    <string>Italic</string>
+    <key>styleMapFamilyName</key>
+    <string>ETBook Display Italic</string>
+    <key>versionMajor</key>
+    <integer>1</integer>
+    <key>versionMinor</key>
+    <integer>1</integer>
+    <key>copyright</key>
+    <string>ETBembo Italic designed for Eward Tufte / Graphics Press (c) 2004 Dmitry Krasny / Deka Design</string>
+    <key>unitsPerEm</key>
+    <integer>1000</integer>
+    <key>ascender</key>
+    <integer>800</integer>
+    <key>descender</key>
+    <integer>-200</integer>
+    <key>italicAngle</key>
+    <real>0</real>
+    <key>note</key>
+    <string></string>
+    <key>openTypeHeadCreated</key>
+    <string>2015/10/13 17:57:50</string>
+    <key>openTypeHheaAscender</key>
+    <integer>889</integer>
+    <key>openTypeHheaDescender</key>
+    <integer>-287</integer>
+    <key>openTypeHheaLineGap</key>
+    <integer>0</integer>
+    <key>openTypeNameVersion</key>
+    <string>Version 1.001</string>
+    <key>postscriptFontName</key>
+    <string>ETBookDisplayOT-Italic</string>
+    <key>postscriptFullName</key>
+    <string>ETBook Display Italic</string>
+    <key>postscriptWeightName</key>
+    <string>Normal</string>
+    <key>postscriptUnderlineThickness</key>
+    <integer>50</integer>
+    <key>postscriptUnderlinePosition</key>
+    <integer>-111</integer>
+    <key>postscriptBlueValues</key>
+    <array>
+      <integer>-22</integer>
+      <integer>-1</integer>
+      <integer>427</integer>
+      <integer>430</integer>
+      <integer>644</integer>
+      <integer>664</integer>
+      <integer>753</integer>
+      <integer>758</integer>
+    </array>
+    <key>postscriptOtherBlues</key>
+    <array>
+      <integer>-275</integer>
+      <integer>-272</integer>
+    </array>
+    <key>postscriptBlueFuzz</key>
+    <integer>1</integer>
+    <key>postscriptBlueShift</key>
+    <integer>7</integer>
+    <key>postscriptBlueScale</key>
+    <real>0.04815</real>
+    <key>postscriptForceBold</key>
+    <false/>
+  </dict>
+</plist>
